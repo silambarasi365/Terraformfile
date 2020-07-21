@@ -2,9 +2,9 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "Azure-Devops"
-    storage_account_name = "tfstateaccountfile"
+    storage_account_name = "csg123456789"
     container_name       = "statefile"
     key                  = "terraform.tfstate"
-    access_key           = "Gm7ttAUzWvqiIWvEDPGQx0mlqaczHv8+feYDUx8jm/DgRhZC9wEQw6zM6HBoeoH5CvFo/J0g0KyRAwt/sGybcg=="
+    access_key           = "qD5J9dMs3YLxiBpHz4hZm4TwgxI1NEUhFY2Dn9BhmHcg1sS8w2vwELrDmwOcFtLQjdEBovCFGitde3UFKRsX2Q=="
   }
 }
